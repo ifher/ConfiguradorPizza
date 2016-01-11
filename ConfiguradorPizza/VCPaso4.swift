@@ -60,36 +60,7 @@ class VCPaso4: UIViewController {
     
     func switchValueDidChange(aSwitch: UISwitch) {
         NSLog("A switch changed its value: \(aSwitch).")
-//        if SWJamon.on {
-//            contador++
-//        }
-//        if SWPepperoni.on {
-//            contador++
-//        }
-//        if SWPavo.on {
-//            contador++
-//        }
-//        if SWSalchica.on {
-//            contador++
-//        }
-//        if SWAceitunas.on {
-//            contador++
-//        }
-//        if SWCebolla.on {
-//            contador++
-//        }
-//        if SWPimiento.on {
-//            contador++
-//        }
-//        if SWPiña.on {
-//            contador++
-//        }
-//        if SWAnchoa.on {
-//            contador++
-//        }
-//        if SWTernera.on {
-//            contador++
-//        }
+
         if aSwitch.on {
             contador++
         }else{
