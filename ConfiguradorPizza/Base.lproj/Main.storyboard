@@ -681,25 +681,16 @@
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="28"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="118" y="142" width="165" height="34"/>
-                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="En 15 minutos estará tu pedido :)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ebh-yw-ER9">
                                 <rect key="frame" x="175" y="250" width="251" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="75" y="250" width="251" height="21"/>
-                                </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="swz-7c-6T6">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" title="Voler a empezar"/>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="145" y="329" width="111" height="30"/>
-                                </variation>
                                 <connections>
                                     <segue destination="aKi-MR-h2i" kind="show" id="A3i-II-Mdd"/>
                                 </connections>
@@ -711,7 +702,7 @@
                                 <variation key="heightClass=regular-widthClass=compact" constant="58"/>
                             </constraint>
                             <constraint firstItem="n9T-J2-7Wu" firstAttribute="top" secondItem="JKK-Ng-LEG" secondAttribute="bottom" constant="122" id="88d-x8-1Hq">
-                                <variation key="heightClass=regular-widthClass=compact" constant="78"/>
+                                <variation key="heightClass=regular-widthClass=compact" constant="122"/>
                             </constraint>
                             <constraint firstItem="swz-7c-6T6" firstAttribute="centerX" secondItem="3wc-dA-w34" secondAttribute="centerX" id="8ES-hR-Evo"/>
                             <constraint firstItem="n9T-J2-7Wu" firstAttribute="centerX" secondItem="3wc-dA-w34" secondAttribute="centerX" id="A0B-VI-clK"/>
@@ -780,9 +771,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="93" y="100" width="214" height="24"/>
-                                </variation>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="En esta pizzería las cosas son diferentes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3UR-is-HPW">
                                 <rect key="frame" x="146" y="308" width="309" height="21"/>
@@ -818,14 +806,13 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="tqG-2b-18l"/>
                                 </constraints>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="80" y="153" width="240" height="328"/>
-                                </variation>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="QFt-rm-Bxi" firstAttribute="top" secondItem="Yhn-gG-JTY" secondAttribute="bottom" constant="36" id="4RJ-6g-BTd"/>
+                            <constraint firstItem="QFt-rm-Bxi" firstAttribute="top" secondItem="Yhn-gG-JTY" secondAttribute="bottom" constant="36" id="4RJ-6g-BTd">
+                                <variation key="heightClass=regular-widthClass=compact" constant="80"/>
+                            </constraint>
                             <constraint firstItem="3UR-is-HPW" firstAttribute="centerX" secondItem="7Nt-zK-VEz" secondAttribute="centerX" id="8st-sW-Tye"/>
                             <constraint firstItem="vNz-of-acU" firstAttribute="top" secondItem="OG5-6R-2ot" secondAttribute="bottom" constant="136" id="9dg-nU-wwe"/>
                             <constraint firstItem="PKd-AP-buZ" firstAttribute="centerX" secondItem="7Nt-zK-VEz" secondAttribute="centerX" id="9vG-9o-TqS"/>
