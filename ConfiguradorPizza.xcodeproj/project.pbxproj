@@ -12,6 +12,11 @@
 		C181768F1C4045D5009AD15D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C181768D1C4045D5009AD15D /* Main.storyboard */; };
 		C18176911C4045D5009AD15D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C18176901C4045D5009AD15D /* Assets.xcassets */; };
 		C18176941C4045D5009AD15D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C18176921C4045D5009AD15D /* LaunchScreen.storyboard */; };
+		C181769C1C419E72009AD15D /* VCPaso1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C181769B1C419E72009AD15D /* VCPaso1.swift */; };
+		C181769E1C4283DC009AD15D /* VCPaso2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C181769D1C4283DC009AD15D /* VCPaso2.swift */; };
+		C18176A01C42B312009AD15D /* VCPaso3.swift in Sources */ = {isa = PBXBuildFile; fileRef = C181769F1C42B312009AD15D /* VCPaso3.swift */; };
+		C18176A21C42B333009AD15D /* VCPaso4.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18176A11C42B333009AD15D /* VCPaso4.swift */; };
+		C18176A41C42B36D009AD15D /* VCResumen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18176A31C42B36D009AD15D /* VCResumen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		C18176901C4045D5009AD15D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C18176931C4045D5009AD15D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C18176951C4045D5009AD15D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C181769B1C419E72009AD15D /* VCPaso1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCPaso1.swift; sourceTree = "<group>"; };
+		C181769D1C4283DC009AD15D /* VCPaso2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCPaso2.swift; sourceTree = "<group>"; };
+		C181769F1C42B312009AD15D /* VCPaso3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCPaso3.swift; sourceTree = "<group>"; };
+		C18176A11C42B333009AD15D /* VCPaso4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCPaso4.swift; sourceTree = "<group>"; };
+		C18176A31C42B36D009AD15D /* VCResumen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCResumen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,11 @@
 			children = (
 				C18176891C4045D5009AD15D /* AppDelegate.swift */,
 				C181768B1C4045D5009AD15D /* ViewController.swift */,
+				C181769B1C419E72009AD15D /* VCPaso1.swift */,
+				C181769D1C4283DC009AD15D /* VCPaso2.swift */,
+				C181769F1C42B312009AD15D /* VCPaso3.swift */,
+				C18176A11C42B333009AD15D /* VCPaso4.swift */,
+				C18176A31C42B36D009AD15D /* VCResumen.swift */,
 				C181768D1C4045D5009AD15D /* Main.storyboard */,
 				C18176901C4045D5009AD15D /* Assets.xcassets */,
 				C18176921C4045D5009AD15D /* LaunchScreen.storyboard */,
@@ -137,6 +152,11 @@
 			files = (
 				C181768C1C4045D5009AD15D /* ViewController.swift in Sources */,
 				C181768A1C4045D5009AD15D /* AppDelegate.swift in Sources */,
+				C18176A21C42B333009AD15D /* VCPaso4.swift in Sources */,
+				C181769E1C4283DC009AD15D /* VCPaso2.swift in Sources */,
+				C18176A01C42B312009AD15D /* VCPaso3.swift in Sources */,
+				C18176A41C42B36D009AD15D /* VCResumen.swift in Sources */,
+				C181769C1C419E72009AD15D /* VCPaso1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
