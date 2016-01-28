@@ -9,9 +9,19 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>PizzaWatch.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>C12E57BB1C5543A9006EBE49</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>C18176851C4045D5009AD15D</key>
 		<dict>
 			<key>primary</key>

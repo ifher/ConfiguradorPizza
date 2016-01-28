@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Selecciona el tamaño" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fpp-fK-5zA">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Selecciona el tamaño" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fpp-fK-5zA">
                                 <rect key="frame" x="177" y="121" width="246" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="1D4-rF-nIq"/>
@@ -70,7 +70,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Selecciona el tipo de masa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eF5-v2-9Rl">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Selecciona el tipo de masa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eF5-v2-9Rl">
                                 <rect key="frame" x="147" y="119" width="306" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="306" id="A63-vV-snd"/>
@@ -127,7 +127,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Selecciona el tipo de queso" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IkQ-WJ-3pY">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Selecciona el tipo de queso" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IkQ-WJ-3pY">
                                 <rect key="frame" x="150" y="121" width="300" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="G3r-fe-ssW"/>
@@ -588,11 +588,11 @@
                                 <exclude reference="nPz-CE-wDw"/>
                                 <exclude reference="9CY-oS-Xcd"/>
                                 <exclude reference="FcK-V6-Rtu"/>
-                                <exclude reference="IWw-Kr-Uqt"/>
-                                <exclude reference="rFi-if-ciw"/>
                                 <exclude reference="RtR-RU-Oru"/>
                                 <exclude reference="YFt-AS-iHI"/>
                                 <exclude reference="xT6-QJ-39n"/>
+                                <exclude reference="IWw-Kr-Uqt"/>
+                                <exclude reference="rFi-if-ciw"/>
                                 <exclude reference="Lmj-4l-aqz"/>
                                 <exclude reference="qEI-3g-eOG"/>
                                 <exclude reference="rc7-xN-efi"/>
@@ -633,23 +633,23 @@
                                 <include reference="9CY-oS-Xcd"/>
                                 <include reference="FcK-V6-Rtu"/>
                                 <exclude reference="Isr-vx-RcL"/>
-                                <include reference="IWw-Kr-Uqt"/>
-                                <include reference="rFi-if-ciw"/>
                                 <include reference="RtR-RU-Oru"/>
                                 <exclude reference="XAO-e3-DJ5"/>
                                 <include reference="YFt-AS-iHI"/>
                                 <exclude reference="Yi1-8d-gR1"/>
                                 <exclude reference="eSq-WB-21b"/>
                                 <include reference="xT6-QJ-39n"/>
+                                <include reference="IWw-Kr-Uqt"/>
+                                <include reference="rFi-if-ciw"/>
                                 <exclude reference="6bc-HF-oz9"/>
                                 <include reference="Lmj-4l-aqz"/>
                                 <exclude reference="ZdO-7J-bQj"/>
+                                <exclude reference="K8B-Qj-ZoC"/>
                                 <exclude reference="2ws-oG-teK"/>
                                 <exclude reference="5gk-8f-tIE"/>
                                 <include reference="qEI-3g-eOG"/>
                                 <include reference="rc7-xN-efi"/>
                                 <exclude reference="wsv-BJ-CZO"/>
-                                <exclude reference="K8B-Qj-ZoC"/>
                             </mask>
                         </variation>
                     </view>
@@ -763,7 +763,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bienvenvidos a PizzApp" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QFt-rm-Bxi">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Bienvenvidos a PizzApp" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QFt-rm-Bxi">
                                 <rect key="frame" x="193" y="100" width="214" height="24"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="24" id="oqE-Kn-Lup"/>
@@ -801,7 +801,7 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="jGx-QL-v8k"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pizza" translatesAutoresizingMaskIntoConstraints="NO" id="PKd-AP-buZ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="pizza" translatesAutoresizingMaskIntoConstraints="NO" id="PKd-AP-buZ">
                                 <rect key="frame" x="180" y="153" width="240" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="tqG-2b-18l"/>
