@@ -31,7 +31,6 @@ class InterfaceController: WKInterfaceController {
         
         for var i = 0; i < c.ingredientes.count; ++i {
             if let row = ingredientesTabla.rowControllerAtIndex(i) as? IngredienteRowResumen {
-                print(c.ingredientes[i])
                 row.ingredienteName?.setText(c.ingredientes[i])
             }
         }
