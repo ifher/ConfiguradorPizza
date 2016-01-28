@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="9515"/>
+    </dependencies>
+    <scenes>
+        <!--Paso1-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="ICPaso1" customModule="PizzaWatch_Extension">
+                    <items>
+                        <label width="1" alignment="left" text="Elegir tamaño" textAlignment="center" id="knq-X7-ma4"/>
+                        <picker height="69" alignment="left" id="6d5-Ga-vOl">
+                            <connections>
+                                <action selector="changeSelection:" destination="AgC-eL-Hgc" id="0aB-hG-lyv"/>
+                            </connections>
+                        </picker>
+                        <button width="1" alignment="left" title="Siguiente" id="lx4-oj-DEH">
+                            <connections>
+                                <action selector="next" destination="AgC-eL-Hgc" id="rPd-sg-Wgf"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="pickerTamanyo" destination="6d5-Ga-vOl" id="OVw-yf-o4t"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="659" y="404"/>
+        </scene>
+        <!--ICPaso2-->
+        <scene sceneID="EUP-t0-hNT">
+            <objects>
+                <controller identifier="ICPaso2" id="Rz9-98-q8m" customClass="ICPaso2" customModule="PizzaWatch_Extension">
+                    <items>
+                        <label width="1" alignment="left" text="Elegir masa" textAlignment="center" id="3lj-1g-BLr"/>
+                        <picker height="69" alignment="left" id="cPE-ju-WWE">
+                            <connections>
+                                <action selector="changeSelection:" destination="Rz9-98-q8m" id="H1s-Qw-Qpx"/>
+                            </connections>
+                        </picker>
+                        <button width="1" alignment="left" title="Siguiente" id="aUW-na-aFi">
+                            <connections>
+                                <action selector="next" destination="Rz9-98-q8m" id="VmG-X1-Fea"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="pickerMasa" destination="cPE-ju-WWE" id="W8y-tC-Vfo"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="867" y="404"/>
+        </scene>
+        <!--ICPaso3-->
+        <scene sceneID="Iov-Uy-yGS">
+            <objects>
+                <controller identifier="ICPaso3" id="11S-1k-7pX" customClass="ICPaso3" customModule="PizzaWatch_Extension">
+                    <items>
+                        <label width="1" alignment="left" text="Elegir queso" textAlignment="center" id="muf-zR-jwD"/>
+                        <picker height="69" alignment="left" id="ytS-XJ-Lid">
+                            <connections>
+                                <action selector="changeSelection:" destination="11S-1k-7pX" id="DJS-rQ-15L"/>
+                            </connections>
+                        </picker>
+                        <button width="1" alignment="left" title="Siquiente" id="NWA-fj-1y9">
+                            <connections>
+                                <action selector="next" destination="11S-1k-7pX" id="qlx-6Q-SKT"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="pickerQueso" destination="ytS-XJ-Lid" id="ZG8-Hg-07t"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1055" y="404"/>
+        </scene>
+        <!--ICPaso4-->
+        <scene sceneID="MOO-FS-6J8">
+            <objects>
+                <controller identifier="ICPaso4" id="hHG-ts-ybu" customClass="ICPaso4" customModule="PizzaWatch_Extension">
+                    <items>
+                        <label width="1" alignment="left" text="Ingredientes" textAlignment="center" id="pU3-UE-5aX"/>
+                        <table alignment="left" id="uAo-JS-tfS">
+                            <items>
+                                <tableRow identifier="IngredienteRow" id="FlL-44-RBk" customClass="IngredienteRow" customModule="PizzaWatch_Extension">
+                                    <group key="rootItem" width="1" alignment="left" id="jrA-XD-y7D">
+                                        <items>
+                                            <separator height="1" heightAdjustment="-4" alignment="left" verticalAlignment="center" id="jZy-Ni-5i7">
+                                                <color key="color" red="0.0" green="0.90158704190000005" blue="0.31599976889999998" alpha="1" colorSpace="calibratedRGB"/>
+                                            </separator>
+                                            <label width="1" widthAdjustment="-2" height="1" alignment="right" verticalAlignment="center" text="Ingrediente" textAlignment="center" id="GCF-B0-7jI"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="IngredienteName" destination="GCF-B0-7jI" id="5xY-R6-utj"/>
+                                        <outlet property="check" destination="jZy-Ni-5i7" id="ia7-j3-9JS"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                        <button width="1" alignment="left" title="Siguiente" enabled="NO" id="9kR-75-ySS">
+                            <connections>
+                                <action selector="next" destination="hHG-ts-ybu" id="m1H-VC-ul8"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="btnNext" destination="9kR-75-ySS" id="dOu-eg-r0d"/>
+                        <outlet property="tableView" destination="uAo-JS-tfS" id="7B1-jM-Lzy"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1248" y="411"/>
+        </scene>
+        <!--ICResumen-->
+        <scene sceneID="nyv-k7-B2Q">
+            <objects>
+                <controller identifier="ICResumen" id="Og3-RK-YSs" customClass="InterfaceController" customModule="PizzaWatch_Extension">
+                    <items>
+                        <label width="1" alignment="left" text="Confirmación" textAlignment="center" id="Yr3-My-Xj4"/>
+                        <label alignment="left" text="Tamaño:" id="6nf-6Z-VJV">
+                            <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
+                        </label>
+                        <label width="1" widthAdjustment="-10" alignment="right" text="Label" id="ApM-zL-J5B">
+                            <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                        </label>
+                        <label alignment="left" text="Masa:" id="529-hg-YaX">
+                            <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
+                        </label>
+                        <label width="1" widthAdjustment="-10" alignment="right" text="Label" id="eBA-iL-OKu">
+                            <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                        </label>
+                        <label alignment="left" text="Queso:" id="ITY-nA-4js">
+                            <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
+                        </label>
+                        <label width="1" widthAdjustment="-10" alignment="right" text="Label" id="FEp-KS-8cu">
+                            <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                        </label>
+                        <label alignment="left" text="Ingredientes:" id="Qxu-4c-W31">
+                            <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
+                        </label>
+                        <table alignment="left" id="dfb-Ls-SPI">
+                            <items>
+                                <tableRow identifier="IngredienteRowResumen" selectable="NO" id="VmZ-VV-LVX" customClass="IngredienteRowResumen" customModule="PizzaWatch_Extension">
+                                    <group key="rootItem" width="1" alignment="left" id="Vxy-Wd-eQN">
+                                        <items>
+                                            <label width="1" height="1" alignment="left" text="Ingrediente" textAlignment="center" id="MTJ-GN-iCg"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="ingredienteName" destination="MTJ-GN-iCg" id="XdS-Nx-5uz"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                        <button width="1" alignment="left" title="Finalizar" id="iTm-mE-CI7">
+                            <connections>
+                                <segue destination="iXT-L5-P8D" kind="push" id="dI4-gq-Alz"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="ingredientesTabla" destination="dfb-Ls-SPI" id="ZmN-2K-XNf"/>
+                        <outlet property="masaText" destination="eBA-iL-OKu" id="n5o-I1-jc8"/>
+                        <outlet property="quesoText" destination="FEp-KS-8cu" id="L5f-Ap-bac"/>
+                        <outlet property="tamanyoText" destination="ApM-zL-J5B" id="d1g-fK-7aQ"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1444" y="411"/>
+        </scene>
+        <!--Interface Controller-->
+        <scene sceneID="ryc-qQ-ks2">
+            <objects>
+                <controller id="iXT-L5-P8D">
+                    <items>
+                        <label width="1" height="44.5" alignment="left" text="¡Pedido Confirmado!" textAlignment="center" numberOfLines="2" id="tzJ-oC-VUA">
+                            <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                        </label>
+                        <label width="1" alignment="left" text="En 15/20 minutos tendrás tu pedido listo." textAlignment="center" numberOfLines="3" id="4Rd-f0-kKf"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1638" y="404"/>
+        </scene>
+    </scenes>
+</document>
